@@ -1,0 +1,18 @@
+
+background-color: #e0ecfa;
+color: #EC6651;
+background-color: #235590;
+
+'Playfair Display', cursive;
+
+<p>I love playing volleyball, hanging out at Torikizoku and coding with Ruby.</p>
+I love <strong>playing volleyball 🏐</strong>
+
+https://www.youtube.com/watch?v=e2UwVAowvIE
+
+I am really passionate about it. I'm literally living for it. True story.
+
+<!-- control + cmd + space -->
+<!-- windows + , -->
+
+<script src="https://kit.fontawesome.com/3926274332.js" 

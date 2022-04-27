@@ -1,15 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@400;700&display=swap');
-
-/* Fonts and Color */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Pacifico&display=swap');
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #F6F9FC;
-  color: rgb(40,40,40);
 }
 
 h1, h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Pacifico', cursive;
 }
 
 a {
@@ -17,48 +13,48 @@ a {
 }
 
 /* Customized style */
-
-.card-white {
-  background-color: white;
-  width: 500px;
-  margin: 24px auto;
-  box-shadow: 0 0 16px rgb(0 0 0 / 10%);
-  padding: 16px;
+.card-orange {
+  background-color: #f1a03c98;
+  width: 400px;
+  margin: 40px auto;
+  padding: 16px 24px;
   text-align: center;
+  box-shadow: 0px 8px 16px rgb(0 0 0 / 30%);
+  /* margin: 48px; */
 }
 
-.img-circle {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
-  object-position: 80% 50%;
+img.img-circle {
+  width: 160px;
   border-radius: 50%;
+  height: 160px;
+  object-fit: cover;
+  object-position: 44% 50%;
 }
 
-.btn-blue {
-  background-color: #1854BB;
-  color: rgb(250,250,250);
+a.btn-green {
   padding: 16px 24px;
   border-radius: 4px;
   display: inline-block;
+  color: rgb(240,240,240);
+  background-color: #275F57;
 }
 
-.btn-blue:hover {
-  background-color: #631e6f;
-  transition: 1s;
+a.btn-green:hover {
+  background-color: #DF5F11;
+  color: rgb(40,40,40);
+  transition: .3s;
 }
 
-.list-inline {
-  padding: 0;
+ul.list-inline {
   list-style: none;
+  padding: 0;
 }
 
-.list-inline li {
+ul.list-inline li {
   display: inline;
 }
 
-.list-inline a {
+ul.list-inline a {
   font-size: 64px;
-  margin: 0 4px;
-  color: rgb(40,40,40);
+  color: rgba(100,100,100);
 }
